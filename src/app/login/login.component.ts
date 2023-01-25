@@ -15,4 +15,11 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  oneKeyup(event:any) {
+    console.log(event.key)
+    if(event == 'Enter') {
+      console.log("enter")
+    }
+
+  }
 }
